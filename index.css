@@ -1,0 +1,322 @@
+.pizzabanner
+{
+    width: 560px;
+    margin-right: -40px;
+}
+.faixa
+{
+    height: 92px;
+    padding: 0 calc(50% - 470px);
+    display: flex;
+    align-items: center;
+    background-color: #4B5E35;
+    color: #fff9ea;
+}
+.item
+{
+    flex: 1;
+}
+.item + .item
+{
+    padding-left: 26px;
+    border-left: 1px solid rgba(247, 241, 227, 0.2);
+}
+.item1
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.item2
+{
+    margin-top: 3px;
+    font-size: 10px;
+    opacity: 0.7;
+}
+.cardapio
+{
+    padding: 100px calc(50% - 470px) 80px;
+    background-color: #F1EBDB;
+}
+.chamada1
+{
+    text-align: center;
+}
+.subtitulo
+{
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12px;
+    color: #7a7468;
+}
+.pizzas
+{
+    display: flex;
+    gap: 18px;
+    margin: 60px 0 40px;
+}
+.pizza
+{
+    position: relative;
+    flex: 1;
+}
+.pedida
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 9px;
+    border-radius: 6px;
+    background-color: #8B1E2D;
+    color: #F7F1E3;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.foto
+{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+}
+.nome
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+.ingredientes
+{
+    margin-top: 8px;
+    min-height: 34px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #8a8478;
+}
+.preco1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(43, 43, 43, 0.1);
+}
+.adicionar
+{
+    transition: 0.3s;
+    font-size: 11px;
+}
+.adicionar:hover
+{
+    color: #8B1E2D;
+}
+.promocoes
+{
+    background-color: #8B1E2D;
+    color: #F7F1E3;
+    padding: 100px calc(50% - 470px) 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.promocoes .combo
+{
+    height: 258px;
+    margin-top: 28px;
+}
+.cartoes
+{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.cartao
+{
+    position: relative;
+    padding: 20px 90px 20px 24px;
+    border-radius: 12px;
+    background-color: #F7F1E3;
+    color: #2B2B2B;
+}
+.cartao1
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.oferta1
+{
+    font-family: 'Poppins', sans-serif;
+    color: #8B1E2D;
+    margin-top: 4px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.cartao2
+{
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #7a7468;
+}
+.clientes
+{
+    padding: 90px calc(50% - 435px) 160px;
+}
+.depoimentos
+{
+    margin-top: 70px;
+    display: flex;
+    gap: 18px;
+}
+.depoimento
+{
+    position: relative;
+    flex: 1;
+    padding: 28px 24px 22px;
+    border: 1px solid #E6DCC6;
+    border-radius: 14px;
+    background-color: #F1EADA;
+}
+.estrelas
+{
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.aspas
+{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    font-size: 48px;
+    line-height: 1;
+    color: #E3B7AE;
+}
+.frase
+{
+    font-family: 'Poppins', sans-serif;
+    min-height: 88px;
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+.autor
+{
+    margin-top: 18px;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #E0D6C0;
+}
+.inicial
+{
+    font-family: 'Poppins', sans-serif;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #D5CAB1;
+    border-radius: 50%;
+    background-color: #F7F1E3;
+    font-size: 10px;
+    color: #8a8478;
+}
+.autor1
+{
+    font-size: 11px;
+    font-weight: 700;
+}
+.autor2
+{
+    font-size: 10px;
+    color: #8a8478;
+}
+@media (max-width: 1100px)
+{
+    .pizzabanner
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+    .faixa
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .item
+    {
+        flex-basis: 40%;
+    }
+    .item + .item
+    {
+        padding-left: 0;
+        border-left: none;
+    }
+    .item2
+    {
+        font-size: 13px;
+    }
+    .cardapio
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pizzas
+    {
+        flex-wrap: wrap;
+    }
+    .pizza
+    {
+        flex-basis: 40%;
+    }
+    .ingredientes
+    {
+        font-size: 13px;
+    }
+    .adicionar
+    {
+        font-size: 13px;
+    }
+    .promocoes
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cartoes
+    {
+        width: 100%;
+    }
+    .cartao2
+    {
+        font-size: 13px;
+    }
+    .clientes
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .depoimentos
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .frase
+    {
+        min-height: 0;
+    }
+    .autor2
+    {
+        font-size: 13px;
+    }
+}

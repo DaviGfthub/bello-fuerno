@@ -1,0 +1,132 @@
+.topo1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 70px calc(50% - 470px) 90px;
+    background-color: #8B1E2D;
+    color: #F7F1E3;
+}
+.titulo8
+{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+.combo1
+{
+    width: 470px;
+    height: 260px;
+}
+.cupons
+{
+    margin-top: -40px;
+    padding: 0 calc(50% - 470px) 110px;
+    display: flex;
+    gap: 22px;
+}
+.cupom
+{
+    position: relative;
+    flex: 1;
+    padding: 26px 24px 24px;
+    border-radius: 16px;
+    background-color: #F8F3E8;
+    box-shadow: 0 18px 36px rgba(80, 60, 30, 0.2);
+    transition: 0.3s;
+}
+.cupom:hover
+{
+    transform: scale(1.03);
+}
+.cupom1
+{
+    margin-top: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.cupom2
+{
+    margin-top: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #8B1E2D;
+}
+.cupom3
+{
+    min-height: 84px;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #6f6a60;
+}
+.cupom4
+{
+    margin-top: 22px;
+    padding-top: 22px;
+    border-top: 2px dashed rgba(43, 43, 43, 0.2);
+    text-align: center;
+}
+.quando
+{
+    padding: 90px calc(50% - 400px);
+    background-color: #F1EBDB;
+}
+.titulo3 + .quando1
+{
+    margin-top: 36px;
+}
+.quando1
+{
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    color: #6f6a60;
+}
+.quando1 strong
+{
+    color: #2B2B2B;
+}
+@media (max-width: 1100px)
+{
+    .topo1
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+    }
+    .titulo8
+    {
+        font-size: 32px;
+    }
+    .combo1
+    {
+        width: 100%;
+    }
+    .cupons
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .cupom3
+    {
+        min-height: 0;
+    }
+    .quando
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
